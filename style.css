@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body{
+  background-color:#0070C9 ;
+  color: #000000;
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    height: 130px;
+}
+footer{
+  background-color: black;
+  color: #0070C9;
+  height: 70px;
+  padding-top: 30px;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+h1, p{
+    padding-top: 17px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+#h1{
+  
+  padding-bottom: 20px;
+}
+input{
+  border: #000000 solid;
+  padding: 2px;
+  margin-bottom: 10px;
+}
+#aapje{
+    width: 420px;
+    height: 250px;
+    border: #000000 solid;
+}
+
+#imgaapje{
+    padding-top: 21px;
+    padding-bottom: 49px;
+}
+
+table{
+    margin-top: 56px ;
+    margin-bottom: 118px;
+}
+
+table, th, tr, td{
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+}
+
+th, tr, td{
+    padding: 10px;
+}
+caption{
+  font-size:40px;
+  padding-bottom: 15px;
+}
+textarea{
+  border: #000000 solid;
+
+}
+
+::placeholder {
+  font-weight: bold;
+}
+
+/*Styling Button */
+
+.button-15 {
+  background-image: linear-gradient(#42A1EC, #0070C9);
+  border: 1px solid #0077CC;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  direction: ltr;
+  display: block;
+  font-family: "SF Pro Text","SF Pro Icons","AOS Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: -.022em;
+  line-height: 1.47059;
+  min-width: 30px;
+  overflow: visible;
+  padding: 4px 15px;
+  text-align: center;
+  touch-action: manipulation;
+  white-space: nowrap;
+  margin: 25px;
+  margin-top: 35px;
+}
+
+.button-15:disabled {
+  cursor: default;
+  opacity: .3;
+}
+
+.button-15:hover {
+  background-image: linear-gradient(#51A9EE, #33ff00);
+  border-color: #1482D0;
+  text-decoration: none;
+}
+
+.button-15:active {
+  background-image: linear-gradient(#3D94D9, #0067B9);
+  border-color: #006DBC;
+  outline: none;
+}
+
+.button-15:focus {
+  box-shadow: rgba(131, 192, 253, 0.5) 0 0 0 3px;
+  outline: none;
+}
+
+#vbutton{
+  border: #000000 solid;
+  margin-bottom: 165px;
+}
